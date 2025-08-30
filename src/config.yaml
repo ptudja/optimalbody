@@ -1,5 +1,5 @@
 site:
-  name: AstroWind
+  name: OptimalBody
   site: 'https://astrowind.vercel.app'
   base: '/'
   trailingSlash: false
@@ -9,16 +9,16 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: OptimalBody
+    template: '%s — OptimalBody'
+  description: "\U0001F680 mjesto gdje pokret postaje put prema zdravijem, snažnijem i uravnoteženijem tijelu"
   robots:
     index: true
     follow: true
   openGraph:
-    site_name: AstroWind
+    site_name: OptimalBody
     images:
-      - url: '~/assets/images/default.png'
+      - url: '~/assets/images/optimal-body.png'
         width: 1200
         height: 628
     type: website
@@ -69,4 +69,4 @@ analytics:
       id: null # or "G-XXXXXXXXXX"
 
 ui:
-  theme: 'system' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"
+  theme: 'light' # Values: "system" | "light" | "dark" | "light:only" | "dark:only"

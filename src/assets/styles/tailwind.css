@@ -11,9 +11,12 @@
   }
   .bg-light {
     background-color: var(--aw-color-bg-page);
+  }  
+  .bg-muted {
+    background-color: var(--aw-color-accent);
   }
   .text-page {
-    color: var(--aw-color-text-page);
+    color: var(--aw-color-text-heading);
   }
   .text-muted {
     color: var(--aw-color-text-muted);
