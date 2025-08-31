@@ -31,7 +31,7 @@ export default defineConfig({
     enabled: false
   },
   integrations: [tailwind({
-    applyBaseStyles: false,
+    applyBaseStyles: true,
   }), sitemap(), mdx(), icon({
     include: {
       tabler: ['*'],
