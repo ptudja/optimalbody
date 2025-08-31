@@ -24,6 +24,8 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
   hasExternalScripts ? (Array.isArray(items) ? items.map((item) => item()) : [items()]) : [];
 
 export default defineConfig({
+  site: 'https://ptudja.github.io',
+  base: '/optimalbody',
   output: 'static',
   devToolbar: {
     enabled: false

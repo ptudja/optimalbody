@@ -255,6 +255,8 @@ const registrationLink = 'https://optimalbody.wod.guru/registration';
     </Fragment>
   </Content>
 
+  <Note icon="tabler:stretching" description=`Stručni tim možete pogledati <a href="${getPermalink('/optimalbody/treneri')}" class=\"font-bold text-violet-500 dark:text-slate-300 hover:text-primary dark:hover:text-gray-200\">ovdje</a>` />
+
   <!-- Steps Widget ****************** -->
 
   <Steps
@@ -275,7 +277,7 @@ const registrationLink = 'https://optimalbody.wod.guru/registration';
       {
         title: 'Korak 3: <span class="font-medium">Pregledajte raspored</span>',
         description:
-          `Pregledajte slobodne termine u <a target=\"_blank\" href="${classLink}" class=\"font-bold text-violet-500 dark:text-slate-300 hover:text-primary dark:hover:text-gray-200\">rasporedu</a>, upoznajte instruktore i odaberite onaj koji vam najviše odgovara..`,
+          `Pregledajte slobodne termine u <a target=\"_blank\" href="${classLink}" class=\"font-bold text-violet-500 dark:text-slate-300 hover:text-primary dark:hover:text-gray-200\">rasporedu</a>, upoznajte <a href="${getPermalink('/optimalbody/treneri')}" class=\"font-bold text-violet-500 dark:text-slate-300 hover:text-primary dark:hover:text-gray-200\">trenere</a> i odaberite onaj koji vam najviše odgovara.`,
         icon: 'tabler:calendar-event',
       },
       {
@@ -294,7 +296,7 @@ const registrationLink = 'https://optimalbody.wod.guru/registration';
 
   <!-- Note Widget ******************* -->
 
-  <Note icon="tabler:currency-euro" description=`Cjenik usluga mozete pogledati <a href="${getPermalink('/cjenik')}" class=\"font-bold text-violet-500 dark:text-slate-300 hover:text-primary dark:hover:text-gray-200\">ovdje</a>` />
+  <Note icon="tabler:currency-euro" description=`Cjenik usluga mozete pogledati <a href="${getPermalink('/optimalbody/cjenik')}" class=\"font-bold text-violet-500 dark:text-slate-300 hover:text-primary dark:hover:text-gray-200\">ovdje</a>` />
 
   <Features2
     title="Kontakt & Lokacija"
