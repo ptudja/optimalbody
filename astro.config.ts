@@ -25,7 +25,7 @@ const whenExternalScripts = (items: (() => AstroIntegration) | (() => AstroInteg
 
 export default defineConfig({
   site: 'https://ptudja.github.io/optimalbody/',
-  base: '/',
+  base: '/optimalbody/',
   output: 'static',
   devToolbar: {
     enabled: false
