@@ -24,6 +24,7 @@ const metadata = {
         { text: 'Deni Baleta', href: '#d_baleta' },
         { text: 'Karla Bučan', href: '#k_bucan' },
         { text: 'Karla Nikolić', href: '#k_nikolic' },
+        { text: 'Sanja Ćosić', href: '#s_cosic' },
       ]}
       isSticky
       showToggleTheme
@@ -70,6 +71,63 @@ const metadata = {
   </Content>
 
   <Content
+    id="k_bucan"
+    isReversed
+    columns={3}
+    image={{
+      src: '~/assets/images/k_bucan.jpg',
+      alt: 'Bucan Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Karla Bučan</h2>
+      <p>
+        Magistra sam nutricionizma i instruktorica fitnesa. Već godinama vodim treninge i izrađujem prehrambene planove  jer vjerujem da se tijelo najljepše mijenja kada se spoje pokret i hrana koja nas podržava.
+      </p>
+      <br />
+      <p>Volim energične treninge, pomicanje granica i onaj trenutak kad netko doista povjeruje u sebe.</p>
+      <br />
+      <p>
+        Tu sam da ti pokažem da briga o sebi ne mora biti komplicirana  samo dosljedna, uz dobru energiju, jasne smjernice i malo znoja. Zajedno gradimo održive navike i plan koji se uklapa u tvoj ritam i ciljeve.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-violet-100 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
+    id="k_nikolic"
+    columns={3}
+    image={{
+      src: '~/assets/images/k_nikolic.jpg',
+      alt: 'Nikolic Image',
+      loading: 'eager',
+    }}
+  >
+    <Fragment slot="content">
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Karla Nikolić</h2>
+      <p>
+        Magistrica sam kineziologije sa specijalizacijom iz fitnesa i rekreacije. Svoj sportski put započela sam s pet godina trenirajući gimnastiku, a kasnije i odbojku te atletiku, što je oblikovalo moj pristup treningu.
+      </p>
+      <br />
+      <p>
+        Imam bogato iskustvo u vođenju individualnih treninga u teretani te grupnih programa pilatesa, funkcionalnog treninga, crossfita i reformera, kao i u radu s djecom u gimnastičkim i nogometnim klubovima. Dodatno sam se usavršavala kroz edukaciju Functional Fitness Fundamentals Mentorship u Cosmosport centru u Splitu.
+      </p>
+      <br />
+      <p>
+        Odlikuju me stručnost, organiziranost, društvenost i stalna težnja profesionalnom razvoju. Cilj mi je prenijeti strast prema pokretu i zdravom životu te, kroz individualizirani pristup, pomoći klijentima u ostvarivanju njihovih ciljeva.
+      </p>
+    </Fragment>
+
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-violet-100 dark:bg-transparent"></div>
+    </Fragment>
+  </Content>
+
+  <Content
     id="d_baleta"
     isReversed
     columns={3}
@@ -98,59 +156,30 @@ const metadata = {
   </Content>
 
   <Content
-    id="k_bucan"
+    id="s_cosic"
     columns={3}
     image={{
-      src: '~/assets/images/k_bucan.jpg',
-      alt: 'Bucan Image',
+      src: '~/assets/images/placeholder.jpg',
+      alt: 'cosic Image',
       loading: 'eager',
     }}
   >
     <Fragment slot="content">
-      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Karla Bučan</h2>
+      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Sanja Ćosić</h2>
       <p>
-        Magistra sam nutricionizma i instruktorica fitnesa. Već godinama vodim treninge i izrađujem prehrambene planove  jer vjerujem da se tijelo najljepše mijenja kada se spoje pokret i hrana koja nas podržava. 
+        Doktorica sam medicine, specijalist anesteziolog, akupunkturolog, dugogodišnji praktikant yoge, obožavateljica ljeta i plivanja, velika poklonica baleta te instuktorica pilatesa na spravama.
       </p>
       <br />
-      <p>Volim energične treninge, pomicanje granica i onaj trenutak kad netko doista povjeruje u sebe.</p>
+      <p>
+        Uz intenzivan i ponekad mentalno i fizički iscrpljujuć posao anesteziologa, a odnedavno i mame jedne živahne djevojčice pilates je postao moja oaza, rehabilitacija, snaga i vrijeme koje je samo moje te sam taj osjećaj poželjela pružiti i drugima.      </p>
       <br />
       <p>
-        Tu sam da ti pokažem da briga o sebi ne mora biti komplicirana  samo dosljedna, uz dobru energiju, jasne smjernice i malo znoja. Zajedno gradimo održive navike i plan koji se uklapa u tvoj ritam i ciljeve.
-      </p>
+        Smatram da je u svemu u životu najteže postići jednostavnost te me reformer upravo privukao raznolikošću vježbi koje iako ponekad izgledaju jednostavno zahtjevaju potpunu predanost za pravilno izvođenje. Veselim se budućem zajedničkom ostvarivanju ciljeva.      </p>
     </Fragment>
 
     <Fragment slot="bg">
       <div class="absolute inset-0 bg-violet-100 dark:bg-transparent"></div>
     </Fragment>
   </Content>
-
-  <Content
-    id="k_nikolic"
-    isReversed
-    columns={3}
-    image={{
-      src: '~/assets/images/k_nikolic.jpg',
-      alt: 'Nikolic Image',
-      loading: 'eager',
-    }}
-  >
-    <Fragment slot="content">
-      <h2 class="text-2xl font-bold tracking-tight dark:text-white sm:text-3xl mb-2">Karla Nikolić</h2>
-      <p>
-        Magistrica sam kineziologije sa specijalizacijom iz fitnesa i rekreacije. Svoj sportski put započela sam s pet godina trenirajući gimnastiku, a kasnije i odbojku te atletiku, što je oblikovalo moj pristup treningu.
-      </p>
-      <br />
-      <p>
-        Imam bogato iskustvo u vođenju individualnih treninga u teretani te grupnih programa pilatesa, funkcionalnog treninga, crossfita i reformera, kao i u radu s djecom u gimnastičkim i nogometnim klubovima. Dodatno sam se usavršavala kroz edukaciju Functional Fitness Fundamentals Mentorship u Cosmosport centru u Splitu.
-      </p>
-      <br />
-      <p>
-        Odlikuju me stručnost, organiziranost, društvenost i stalna težnja profesionalnom razvoju. Cilj mi je prenijeti strast prema pokretu i zdravom životu te, kroz individualizirani pristup, pomoći klijentima u ostvarivanju njihovih ciljeva.
-      </p>
-    </Fragment>
-
-    <Fragment slot="bg">
-      <div class="absolute inset-0 bg-violet-100 dark:bg-transparent"></div>
-    </Fragment>
-  </Content>
+  
 </Layout>

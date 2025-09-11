@@ -2,6 +2,7 @@ site:
   name: OptimalBody
   site: 'https://ptudja.github.io/optimalbody/'
   base: '/optimalbody/'
+#  base: '/' # Use '/' for development locally
   trailingSlash: false
 
   googleSiteVerificationId: false

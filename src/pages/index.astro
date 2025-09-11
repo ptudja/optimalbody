@@ -14,7 +14,7 @@ const metadata = {
   ignoreTitleTemplate: true,
 };
 
-const loginLink = 'https://optimalbody.wod.guru/user/login';
+const loginLink = 'https://optimalbody.wod.guru/memberships';
 const classLink = 'https://optimalbody.wod.guru/classes';
 const registrationLink = 'https://optimalbody.wod.guru/registration';
 ---
@@ -24,13 +24,6 @@ const registrationLink = 'https://optimalbody.wod.guru/registration';
 
   <Hero
     actions={[
-      {
-        variant: 'primary',
-        text: 'Prijavi se',
-        href: loginLink,
-        target: '_blank',
-        icon: 'tabler:writing',
-      },
       { text: 'Saznajte više', href: '#features' },
     ]}
     image={{ src: '~/assets/images/optimal-body-logo.png', alt: 'AstroWind Hero Image' }}
@@ -267,7 +260,7 @@ const registrationLink = 'https://optimalbody.wod.guru/registration';
       {
         title: 'Korak 2: <span class="font-medium">Odaberite program</span>',
         description:
-          "Pilates, Reformer, funkcionalni ili kineziološki — izaberite ono što najbolje odgovara vašim ciljevima.",
+          "Pilates, Funkcionalni trening, Reformer, Individualni trening — izaberite ono što najbolje odgovara vašim ciljevima.",
         icon: 'tabler:adjustments-alt',
       },
       {
@@ -296,21 +289,37 @@ const registrationLink = 'https://optimalbody.wod.guru/registration';
 
   <Features2
     title="Kontakt & Lokacija"
+    columns={3}
     items={[
       {
         title: 'Mobitel',
-        description: '+385 95 518 3850',
+        description: '<a href="tel:+385955183850">+385 95 518 3850</a>',
         icon: 'tabler:headset',
       },
       {
         title: 'Email',
-        description: 'info.optimalbody@gmail.com',
+        description: '<a href="mailto:info.optimalbody@gmail.com">info.optimalbody@gmail.com</a>',
         icon: 'tabler:mail',
       },
       {
         title: 'Lokacija',
-        description: 'Nikole Tavelića 4, Split',
+        description: '<a href="https://maps.app.goo.gl/FeLkqy3KDuGovDEK8">Nikole Tavelića 4, Split</a>',
         icon: 'tabler:map-pin',
+      },
+      {
+        title: 'Parking 1',
+        description: '<a href="https://maps.app.goo.gl/2mfE3ifd7zyq6oAX7">Parking Priska meda</a>',
+        icon: 'tabler:parking-circle',
+      },
+      {
+        title: 'Parking 2',
+        description: '<a href="https://maps.app.goo.gl/4pFbwiMjzVrA1Cpq6">Besplatni zemljani parking</a>',
+        icon: 'tabler:parking-circle',
+      },
+      {
+        title: 'Parking 3',
+        description: '<a href="https://maps.app.goo.gl/4HzRfr4PaJKszWvi9">Besplatni zemljani parking</a>',
+        icon: 'tabler:parking-circle',
       },
     ]}
   >
@@ -318,4 +327,5 @@ const registrationLink = 'https://optimalbody.wod.guru/registration';
   <!--    <div class="absolute inset-0 bg-sky-50 dark:bg-transparent"></div>-->
   <!--  </Fragment>-->
   </Features2>
+  
 </Layout>
